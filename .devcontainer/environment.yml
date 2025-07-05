@@ -1,10 +1,11 @@
-name: dev
+name: ai4beg
 channels:
- - defaults
+  - defaults
+  - microsoft
 dependencies:
-- python=3.10.0
-- openai
-- python-dotenv
-- pip
-- pip:
-  - azure-ai-inference
+  - python=3.10  # Örnek: Python 3.9 kullanıyoruz, siz istediğiniz sürümü yazabilirsiniz
+  - openai
+  - python-dotenv
+  - pip
+  - pip:
+      - azure-ai-ml
